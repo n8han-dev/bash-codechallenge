@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Welcome to the calculator. very generic."
+IFS=" " read -p "testing this: " t1 t2 t3
+
+echo "1: $t1, 2 $t2, 3 $t3"
